@@ -147,7 +147,7 @@ async def start(bot, message):
         await message.reply_photo(
             photo=random.choice(PHOTO),
             caption=START_MSG.format(message.from_user.mention),
-            parse_mode="Markdown",
+            parse_mode="md",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [

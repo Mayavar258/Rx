@@ -14,7 +14,7 @@ BOT_TOKEN = "6821673610:AAGdw8ecQN5VXfiEDCAL1rw5IrOY6SK6EF8"
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
-BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", ""))
+BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", "-1002070840966"))
 ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "1006159057").split())
 DB_URL = os.environ.get("DATABASE_1", "mongodb+srv://raja:AMRKS@cluster0.auwpwn0.mongodb.net/?retryWrites=true&w=majority")
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST", True))
